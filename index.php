@@ -7,8 +7,12 @@
         <title>Document</title>
     </head>
     <body>
+        <header>
+            <h1>Calculator</H1>
+        </header>
        <form action="functions.php" method="get">
         <input type="text" name="num01" placeholder="Number 1">
+        <br>
         <select name="oper">
             <label>Choose operation!</label>
             <option value="add">Add</option>
@@ -16,13 +20,19 @@
             <option value="div">Divide</option>
             <option value="times">Times</option>
             </select>
+        <br>
             <input type="text" name="num02" placeholder="Number 2">
+        <br>
             <button type="submit">Calculate!</button>
        </form>
-       
+       <h4>
        <?php
-        echo "Date is: " . date('j-m-y, h:i:s');
-
+        echo "The date is: " . date('j-m-y');
         ?>
+        <br>
+        <?php
+        echo "The time is: " . date('h:i:s');
+        ?>
+        </h4>
     </body>
-    </html>
+</html>
