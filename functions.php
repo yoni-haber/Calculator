@@ -25,6 +25,13 @@ $num01 = $_GET["num01"];
 $oper = $_GET["oper"];
 $num02 = $_GET["num02"];
 
-echo "Value: " . myCalculator($num01, $oper, $num02);
+echo "The answer is: " . myCalculator($num01, $oper, $num02);
+?>
+<!DOCTYPE html>
+<html>
+    <br>
+</html>
+<?php
+echo "Try another sum!";
 
 ?>
