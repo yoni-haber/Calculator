@@ -27,7 +27,8 @@
        </form>
        <h4>
        <?php
-        echo "The date is: " . date('j-m-y');
+       date_default_timezone_set('Europe/London');
+        echo "The date is: " . date('j/m/y');
         ?>
         <br>
         <?php
