@@ -13,6 +13,8 @@
             <label>Choose operation!</label>
             <option value="add">Add</option>
             <option value="sub">Subtract</option>
+            <option value="div">Divide</option>
+            <option value="times">Times</option>
             </select>
             <input type="text" name="num02" placeholder="Number 2">
             <button type="submit">Calculate!</button>

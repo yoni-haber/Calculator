@@ -6,10 +6,16 @@ function myCalculator($num01, $oper, $num02) {
             $sum = $num01 + $num02;
             break;
         case "sub":
-                $sum = $num01 - $num02;
+            $sum = $num01 - $num02;
             break;
+        case "div":
+            $sum = $num01 / $num02;
+            break; 
             default:
-                $sum = "There was an error!";
+        case "times":
+            $sum = $num01 * $num02;
+            break;
+            $sum = "There was an error!";
             break;
     }
     return $sum;
